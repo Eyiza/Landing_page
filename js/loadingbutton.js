@@ -26,7 +26,7 @@ function signIn() {
 
 
 function timer(){
-    swal("Invalid Email or Password", "Account Locked!. Please wait for " + timeleft + " seconds", "warning");    
+    swal("Invalid Email or Password", "Account Locked!. Please wait for " + timeleft + " seconds", "error");    
     
     var downloadTimer = setInterval(function () {
         if (timeleft <= 0) {
